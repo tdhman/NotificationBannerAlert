@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'NotificationBannerAlert_Example' do
+  pod 'NotificationBannerAlert', :path => '../'
+
+  target 'NotificationBannerAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
