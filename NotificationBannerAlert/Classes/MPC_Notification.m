@@ -39,7 +39,7 @@
                   displayTime:(CGFloat) displayTime {
     
     UIColor *color = [UIColor colorWithRed:0.20 green:0.80 blue:1.00 alpha:1];
-    UIImage *image = [UIImage imageNamed:@"alertExclamation"];
+    UIImage *image = [UIImage imageNamed:@"info" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
     return [self initWithTitle:alertTitle message:alertMessage alertColor:color alertImage:image displayTime:displayTime];
 }
 
@@ -48,7 +48,7 @@
                               displayTime:(CGFloat) displayTime {
     
     UIColor *color = [UIColor colorWithRed:0.00 green:0.60 blue:0.20 alpha:1];
-    UIImage *image = [UIImage imageNamed:@"alertExclamation"];
+    UIImage *image = [UIImage imageNamed:@"success" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
     return [self initWithTitle:alertTitle message:alertMessage alertColor:color alertImage:image displayTime:displayTime];
 }
 
@@ -57,7 +57,7 @@
                               displayTime:(CGFloat) displayTime {
     
     UIColor *color = [UIColor colorWithRed:1.00 green:0.60 blue:0.20 alpha:1];
-    UIImage *image = [UIImage imageNamed:@"alertExclamation"];
+    UIImage *image = [UIImage imageNamed:@"warning" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
     return [self initWithTitle:alertTitle message:alertMessage alertColor:color alertImage:image displayTime:displayTime];
 }
 
@@ -66,7 +66,7 @@
                               displayTime:(CGFloat) displayTime {
     
     UIColor *color = [UIColor colorWithRed:0.733 green:0.192 blue:0.357 alpha:1];
-    UIImage *image = [UIImage imageNamed:@"alertExclamation"];
+    UIImage *image = [UIImage imageNamed:@"danger" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
     return [self initWithTitle:alertTitle message:alertMessage alertColor:color alertImage:image displayTime:displayTime];
 }
 

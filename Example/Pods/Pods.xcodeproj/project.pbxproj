@@ -17,6 +17,7 @@
 		CACBAA2A44E6558E8F9A1FEB78D7C52F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		D48EEC5321DF6F3000B7C99B /* MPC_Notification.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EEC5121DF6F3000B7C99B /* MPC_Notification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D48EEC5421DF6F3000B7C99B /* MPC_Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EEC5221DF6F3000B7C99B /* MPC_Notification.m */; };
+		D48EEC5621DF7E6D00B7C99B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48EEC5521DF7E6D00B7C99B /* Media.xcassets */; };
 		D4B3F5645620C184DC3CDAFC574F4F22 /* Pods-NotificationBannerAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BECA94FC1542CFE978B8A60A5C41057 /* Pods-NotificationBannerAlert_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		D3541CE5EE119197423E3370FF9751A2 /* Pods-NotificationBannerAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationBannerAlert_Tests-Info.plist"; sourceTree = "<group>"; };
 		D48EEC5121DF6F3000B7C99B /* MPC_Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPC_Notification.h; path = NotificationBannerAlert/Classes/MPC_Notification.h; sourceTree = "<group>"; };
 		D48EEC5221DF6F3000B7C99B /* MPC_Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPC_Notification.m; path = NotificationBannerAlert/Classes/MPC_Notification.m; sourceTree = "<group>"; };
+		D48EEC5521DF7E6D00B7C99B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../../NotificationBannerAlert/Assets/Media.xcassets; sourceTree = "<group>"; };
 		D491F47A9DB6B9AC36DA1ACA796C1DD1 /* Pods-NotificationBannerAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NotificationBannerAlert_Example.modulemap"; sourceTree = "<group>"; };
 		E664B4C2A4CE21D2D6B24A5FE66A353B /* Pods_NotificationBannerAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationBannerAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F019D2AE711F6063CF886C303AB1A15C /* Pods-NotificationBannerAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationBannerAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				B92BE1F421E22A0C2C97287FAF9741CF /* NotificationBannerAlert */,
+				D48EEC5521DF7E6D00B7C99B /* Media.xcassets */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48EEC5621DF7E6D00B7C99B /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
