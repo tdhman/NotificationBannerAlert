@@ -1,0 +1,16 @@
+PODS:
+  - NotificationBannerAlert (0.1.0)
+
+DEPENDENCIES:
+  - NotificationBannerAlert (from `../`)
+
+EXTERNAL SOURCES:
+  NotificationBannerAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NotificationBannerAlert: 4284afa7dd3eac17f871b164a80c949af64d11a7
+
+PODFILE CHECKSUM: 128564baf823ceae7d2a3286e6b9004c2d454945
+
+COCOAPODS: 1.6.0.beta.1

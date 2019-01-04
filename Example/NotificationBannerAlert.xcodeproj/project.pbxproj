@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23FC6ECD2A685A2E0230DB6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		250C4484AFA7291A6A2A94DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		23FC6ECD2A685A2E0230DB6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		250C4484AFA7291A6A2A94DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		40182C355538ACBF07EE5753 /* Pods-NotificationBannerAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationBannerAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-NotificationBannerAlert_Example/Pods-NotificationBannerAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5A26678731066BC895BC83D1 /* Pods-NotificationBannerAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationBannerAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-NotificationBannerAlert_Tests/Pods-NotificationBannerAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NotificationBannerAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationBannerAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71F2256B0A5F42F51A2BCFB2 /* Pods_NotificationBannerAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationBannerAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E0E78210951585F9BB0469AD /* NotificationBannerAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NotificationBannerAlert.podspec; path = ../NotificationBannerAlert.podspec; sourceTree = "<group>"; };
+		E0E78210951585F9BB0469AD /* NotificationBannerAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NotificationBannerAlert.podspec; path = ../NotificationBannerAlert.podspec; sourceTree = "<group>"; };
 		FCBA44D02CD54AA7A9F84B60 /* Pods-NotificationBannerAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationBannerAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-NotificationBannerAlert_Example/Pods-NotificationBannerAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				67B4E0B4B3663C94CEDDB548 /* Pods-NotificationBannerAlert_Tests.debug.xcconfig */,
 				5A26678731066BC895BC83D1 /* Pods-NotificationBannerAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tdhman;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 56P5EPM454;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,11 +500,12 @@
 			baseConfigurationReference = 40182C355538ACBF07EE5753 /* Pods-NotificationBannerAlert_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56P5EPM454;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationBannerAlert/NotificationBannerAlert-Prefix.pch";
 				INFOPLIST_FILE = "NotificationBannerAlert/NotificationBannerAlert-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tdhman.NotificationBannerAlert-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -513,11 +516,12 @@
 			baseConfigurationReference = FCBA44D02CD54AA7A9F84B60 /* Pods-NotificationBannerAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56P5EPM454;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationBannerAlert/NotificationBannerAlert-Prefix.pch";
 				INFOPLIST_FILE = "NotificationBannerAlert/NotificationBannerAlert-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tdhman.NotificationBannerAlert-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

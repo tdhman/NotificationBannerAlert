@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2065F9CFB904AD4C18AE39CF0960A264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		24333AA3DB2F8960FB603CA82CCD27C2 /* Pods-NotificationBannerAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A5AF6FAD80C684AE2B75040A6E49B /* Pods-NotificationBannerAlert_Tests-dummy.m */; };
+		6B144F63713074BA58350795F798970D /* Pods-NotificationBannerAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B85CEF0EA3FE7D2D74247D4B43259C3 /* Pods-NotificationBannerAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7124A8D3E60AC136CC1F46E99CF75190 /* NotificationBannerAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E3764BDBDAC852B73B9425DC0CB613 /* NotificationBannerAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		739794C0DC2FCF2DAE534760824F07C3 /* NotificationBannerAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACAA30F86122F3E2F27A59A88639180 /* NotificationBannerAlert-dummy.m */; };
+		8A812099B6508A68E4F1A67862FE7EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8EF92599B00F02FB2DC6B9DEDDF680E3 /* Pods-NotificationBannerAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F019D2AE711F6063CF886C303AB1A15C /* Pods-NotificationBannerAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CACBAA2A44E6558E8F9A1FEB78D7C52F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D48EEC5321DF6F3000B7C99B /* MPC_Notification.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EEC5121DF6F3000B7C99B /* MPC_Notification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48EEC5421DF6F3000B7C99B /* MPC_Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EEC5221DF6F3000B7C99B /* MPC_Notification.m */; };
+		D4B3F5645620C184DC3CDAFC574F4F22 /* Pods-NotificationBannerAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BECA94FC1542CFE978B8A60A5C41057 /* Pods-NotificationBannerAlert_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166C46521563BC99166EDABB075B94C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6E295F4C7A5C6746166C6B87C843F5;
+			remoteInfo = "Pods-NotificationBannerAlert_Example";
+		};
+		E4D2BC143A3C720B13D9A9EB98EA2A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400B5214EF6EEF0DBFA3C915DB8E0D7B;
+			remoteInfo = NotificationBannerAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFE8EF69BEE5B98FA37767B55E2962B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2027809DF5596D086ACD01373A433221 /* Pods-NotificationBannerAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationBannerAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		237C1BF79DD16E397DE59CBA393E4049 /* NotificationBannerAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NotificationBannerAlert.podspec; sourceTree = "<group>"; };
+		2655A111B4C6171AD7D617C46233E88E /* Pods-NotificationBannerAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationBannerAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D0B8623C943CA0C6046BE607DC16E4B /* NotificationBannerAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationBannerAlert-prefix.pch"; sourceTree = "<group>"; };
+		3460D4932D378199DD4C83A3004A39D1 /* NotificationBannerAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotificationBannerAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BECA94FC1542CFE978B8A60A5C41057 /* Pods-NotificationBannerAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationBannerAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		4C55E0CE79921EA57289ED233B68735F /* Pods_NotificationBannerAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationBannerAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C651FA8111769D997B37D732D472976 /* NotificationBannerAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotificationBannerAlert.xcconfig; sourceTree = "<group>"; };
+		50E3764BDBDAC852B73B9425DC0CB613 /* NotificationBannerAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationBannerAlert-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FC2DD6596B2E94CA10B2AD9175DCEF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		67642FE956C74B0BE018F6C3A2729178 /* Pods-NotificationBannerAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationBannerAlert_Example-Info.plist"; sourceTree = "<group>"; };
+		6A7803C9DB54C5A5ADA92138784659DC /* Pods-NotificationBannerAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationBannerAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8ACAA30F86122F3E2F27A59A88639180 /* NotificationBannerAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotificationBannerAlert-dummy.m"; sourceTree = "<group>"; };
+		8B85CEF0EA3FE7D2D74247D4B43259C3 /* Pods-NotificationBannerAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationBannerAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		8D62485990686CA5B25BE13F35128A00 /* NotificationBannerAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NotificationBannerAlert-Info.plist"; sourceTree = "<group>"; };
+		8DADA451E45A1995B718A81AC592CAC4 /* Pods-NotificationBannerAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationBannerAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A58FEC6BFA78A5610006A5C955E9A6 /* Pods-NotificationBannerAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NotificationBannerAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		9E5A5AF6FAD80C684AE2B75040A6E49B /* Pods-NotificationBannerAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationBannerAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		A630365B8166223800DE50D654C5C916 /* Pods-NotificationBannerAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationBannerAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B5DC863B4678EB6CB74F9B0D1D370E13 /* Pods-NotificationBannerAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationBannerAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6D295642FB04A618C58D7210DE12F2E /* NotificationBannerAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NotificationBannerAlert.modulemap; sourceTree = "<group>"; };
+		BC56E68C03BA25CC5D3D7BFB350704EC /* Pods-NotificationBannerAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationBannerAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA4ACB02D1B90291D50ECFFD0AFA91E9 /* Pods-NotificationBannerAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationBannerAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3541CE5EE119197423E3370FF9751A2 /* Pods-NotificationBannerAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationBannerAlert_Tests-Info.plist"; sourceTree = "<group>"; };
+		D48EEC5121DF6F3000B7C99B /* MPC_Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPC_Notification.h; path = NotificationBannerAlert/Classes/MPC_Notification.h; sourceTree = "<group>"; };
+		D48EEC5221DF6F3000B7C99B /* MPC_Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPC_Notification.m; path = NotificationBannerAlert/Classes/MPC_Notification.m; sourceTree = "<group>"; };
+		D491F47A9DB6B9AC36DA1ACA796C1DD1 /* Pods-NotificationBannerAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NotificationBannerAlert_Example.modulemap"; sourceTree = "<group>"; };
+		E664B4C2A4CE21D2D6B24A5FE66A353B /* Pods_NotificationBannerAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationBannerAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F019D2AE711F6063CF886C303AB1A15C /* Pods-NotificationBannerAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationBannerAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F6E03F7CFC7B5E07B84A167087C34010 /* Pods-NotificationBannerAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationBannerAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A13F3392AC4BFDBE4AFF419FF4CF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A812099B6508A68E4F1A67862FE7EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCB0A3447027479FBD8C52B224322E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2065F9CFB904AD4C18AE39CF0960A264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7F513026EB460BE436B8AD83DEC989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACBAA2A44E6558E8F9A1FEB78D7C52F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C4AA2C2E347EFE035EAB71428CB696B /* Pods-NotificationBannerAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94A58FEC6BFA78A5610006A5C955E9A6 /* Pods-NotificationBannerAlert_Tests.modulemap */,
+				2655A111B4C6171AD7D617C46233E88E /* Pods-NotificationBannerAlert_Tests-acknowledgements.markdown */,
+				8DADA451E45A1995B718A81AC592CAC4 /* Pods-NotificationBannerAlert_Tests-acknowledgements.plist */,
+				9E5A5AF6FAD80C684AE2B75040A6E49B /* Pods-NotificationBannerAlert_Tests-dummy.m */,
+				D3541CE5EE119197423E3370FF9751A2 /* Pods-NotificationBannerAlert_Tests-Info.plist */,
+				F019D2AE711F6063CF886C303AB1A15C /* Pods-NotificationBannerAlert_Tests-umbrella.h */,
+				CA4ACB02D1B90291D50ECFFD0AFA91E9 /* Pods-NotificationBannerAlert_Tests.debug.xcconfig */,
+				B5DC863B4678EB6CB74F9B0D1D370E13 /* Pods-NotificationBannerAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-NotificationBannerAlert_Tests";
+			path = "Target Support Files/Pods-NotificationBannerAlert_Tests";
+			sourceTree = "<group>";
+		};
+		437CBF74732C9D21A3FC5666D5568727 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D295642FB04A618C58D7210DE12F2E /* NotificationBannerAlert.modulemap */,
+				4C651FA8111769D997B37D732D472976 /* NotificationBannerAlert.xcconfig */,
+				8ACAA30F86122F3E2F27A59A88639180 /* NotificationBannerAlert-dummy.m */,
+				8D62485990686CA5B25BE13F35128A00 /* NotificationBannerAlert-Info.plist */,
+				2D0B8623C943CA0C6046BE607DC16E4B /* NotificationBannerAlert-prefix.pch */,
+				50E3764BDBDAC852B73B9425DC0CB613 /* NotificationBannerAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NotificationBannerAlert";
+			sourceTree = "<group>";
+		};
+		58E74C2BA2887DDF10FF61D22F0CF82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3460D4932D378199DD4C83A3004A39D1 /* NotificationBannerAlert.framework */,
+				4C55E0CE79921EA57289ED233B68735F /* Pods_NotificationBannerAlert_Example.framework */,
+				E664B4C2A4CE21D2D6B24A5FE66A353B /* Pods_NotificationBannerAlert_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E683F9695B4DC36E524689B78A52EE22 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				58E74C2BA2887DDF10FF61D22F0CF82C /* Products */,
+				C17E3428413EC6A621990CDA80AD2B05 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB791AB540805CA0D099257720DCCC2 /* Pods-NotificationBannerAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D491F47A9DB6B9AC36DA1ACA796C1DD1 /* Pods-NotificationBannerAlert_Example.modulemap */,
+				BC56E68C03BA25CC5D3D7BFB350704EC /* Pods-NotificationBannerAlert_Example-acknowledgements.markdown */,
+				F6E03F7CFC7B5E07B84A167087C34010 /* Pods-NotificationBannerAlert_Example-acknowledgements.plist */,
+				3BECA94FC1542CFE978B8A60A5C41057 /* Pods-NotificationBannerAlert_Example-dummy.m */,
+				6A7803C9DB54C5A5ADA92138784659DC /* Pods-NotificationBannerAlert_Example-frameworks.sh */,
+				67642FE956C74B0BE018F6C3A2729178 /* Pods-NotificationBannerAlert_Example-Info.plist */,
+				8B85CEF0EA3FE7D2D74247D4B43259C3 /* Pods-NotificationBannerAlert_Example-umbrella.h */,
+				2027809DF5596D086ACD01373A433221 /* Pods-NotificationBannerAlert_Example.debug.xcconfig */,
+				A630365B8166223800DE50D654C5C916 /* Pods-NotificationBannerAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-NotificationBannerAlert_Example";
+			path = "Target Support Files/Pods-NotificationBannerAlert_Example";
+			sourceTree = "<group>";
+		};
+		B92BE1F421E22A0C2C97287FAF9741CF /* NotificationBannerAlert */ = {
+			isa = PBXGroup;
+			children = (
+				D48EEC5121DF6F3000B7C99B /* MPC_Notification.h */,
+				D48EEC5221DF6F3000B7C99B /* MPC_Notification.m */,
+				EA83CD34CBBC5B82D4B97478ECB96443 /* Pod */,
+				437CBF74732C9D21A3FC5666D5568727 /* Support Files */,
+			);
+			name = NotificationBannerAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17E3428413EC6A621990CDA80AD2B05 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB791AB540805CA0D099257720DCCC2 /* Pods-NotificationBannerAlert_Example */,
+				1C4AA2C2E347EFE035EAB71428CB696B /* Pods-NotificationBannerAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E683F9695B4DC36E524689B78A52EE22 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B92BE1F421E22A0C2C97287FAF9741CF /* NotificationBannerAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA83CD34CBBC5B82D4B97478ECB96443 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1FFE8EF69BEE5B98FA37767B55E2962B /* LICENSE */,
+				237C1BF79DD16E397DE59CBA393E4049 /* NotificationBannerAlert.podspec */,
+				5FC2DD6596B2E94CA10B2AD9175DCEF6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		245F3687FC0DC8BF1582BA005C63B22E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B144F63713074BA58350795F798970D /* Pods-NotificationBannerAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5854C521290C0B653F73867CB9B41A83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48EEC5321DF6F3000B7C99B /* MPC_Notification.h in Headers */,
+				7124A8D3E60AC136CC1F46E99CF75190 /* NotificationBannerAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B30FF18B979CFC1D883909024307A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF92599B00F02FB2DC6B9DEDDF680E3 /* Pods-NotificationBannerAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		400B5214EF6EEF0DBFA3C915DB8E0D7B /* NotificationBannerAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E61D135C8F1BC0B5C8F808617EEB17A /* Build configuration list for PBXNativeTarget "NotificationBannerAlert" */;
+			buildPhases = (
+				5854C521290C0B653F73867CB9B41A83 /* Headers */,
+				2478E695FD45DC67531C4C05B6DB26FB /* Sources */,
+				0A13F3392AC4BFDBE4AFF419FF4CF0FA /* Frameworks */,
+				09C92C7C3B2E052EAC666655676DA1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationBannerAlert;
+			productName = NotificationBannerAlert;
+			productReference = 3460D4932D378199DD4C83A3004A39D1 /* NotificationBannerAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B920A75B62E87B10CF5E28CA866EAD4E /* Pods-NotificationBannerAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9CA5EFF38017F6242FF3037E9F37E4 /* Build configuration list for PBXNativeTarget "Pods-NotificationBannerAlert_Tests" */;
+			buildPhases = (
+				A1B30FF18B979CFC1D883909024307A0 /* Headers */,
+				DA9F0BEEDAD3D5232D11603E7496692D /* Sources */,
+				AF7F513026EB460BE436B8AD83DEC989 /* Frameworks */,
+				39DD1493CD5696994675BAC8ECD45A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33222422841CC0A092A8D12D7E98C04F /* PBXTargetDependency */,
+			);
+			name = "Pods-NotificationBannerAlert_Tests";
+			productName = "Pods-NotificationBannerAlert_Tests";
+			productReference = E664B4C2A4CE21D2D6B24A5FE66A353B /* Pods_NotificationBannerAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE6E295F4C7A5C6746166C6B87C843F5 /* Pods-NotificationBannerAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780C1DC07F0874714F124184524682B8 /* Build configuration list for PBXNativeTarget "Pods-NotificationBannerAlert_Example" */;
+			buildPhases = (
+				245F3687FC0DC8BF1582BA005C63B22E /* Headers */,
+				99CD2E1D6485B3D438F3B47D74D050F4 /* Sources */,
+				7DCB0A3447027479FBD8C52B224322E7 /* Frameworks */,
+				E6E1F1FB64E0390E238931D583A0BBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C352B136F4FE3EC16495B1580E2285 /* PBXTargetDependency */,
+			);
+			name = "Pods-NotificationBannerAlert_Example";
+			productName = "Pods-NotificationBannerAlert_Example";
+			productReference = 4C55E0CE79921EA57289ED233B68735F /* Pods_NotificationBannerAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58E74C2BA2887DDF10FF61D22F0CF82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400B5214EF6EEF0DBFA3C915DB8E0D7B /* NotificationBannerAlert */,
+				FE6E295F4C7A5C6746166C6B87C843F5 /* Pods-NotificationBannerAlert_Example */,
+				B920A75B62E87B10CF5E28CA866EAD4E /* Pods-NotificationBannerAlert_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C92C7C3B2E052EAC666655676DA1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DD1493CD5696994675BAC8ECD45A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1F1FB64E0390E238931D583A0BBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2478E695FD45DC67531C4C05B6DB26FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739794C0DC2FCF2DAE534760824F07C3 /* NotificationBannerAlert-dummy.m in Sources */,
+				D48EEC5421DF6F3000B7C99B /* MPC_Notification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD2E1D6485B3D438F3B47D74D050F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B3F5645620C184DC3CDAFC574F4F22 /* Pods-NotificationBannerAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9F0BEEDAD3D5232D11603E7496692D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24333AA3DB2F8960FB603CA82CCD27C2 /* Pods-NotificationBannerAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C352B136F4FE3EC16495B1580E2285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NotificationBannerAlert;
+			target = 400B5214EF6EEF0DBFA3C915DB8E0D7B /* NotificationBannerAlert */;
+			targetProxy = E4D2BC143A3C720B13D9A9EB98EA2A3D /* PBXContainerItemProxy */;
+		};
+		33222422841CC0A092A8D12D7E98C04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NotificationBannerAlert_Example";
+			target = FE6E295F4C7A5C6746166C6B87C843F5 /* Pods-NotificationBannerAlert_Example */;
+			targetProxy = 166C46521563BC99166EDABB075B94C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0113B73031E7662200C5B6C09BD1BB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DC863B4678EB6CB74F9B0D1D370E13 /* Pods-NotificationBannerAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationBannerAlert_Tests/Pods-NotificationBannerAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationBannerAlert_Tests/Pods-NotificationBannerAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37673C2B686125C951814CF258E50097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A630365B8166223800DE50D654C5C916 /* Pods-NotificationBannerAlert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationBannerAlert_Example/Pods-NotificationBannerAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationBannerAlert_Example/Pods-NotificationBannerAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55C083899E1236A61B403875CD6CBCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4ACB02D1B90291D50ECFFD0AFA91E9 /* Pods-NotificationBannerAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationBannerAlert_Tests/Pods-NotificationBannerAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationBannerAlert_Tests/Pods-NotificationBannerAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D127D0AE405F9BFA79BA4241C2F7C21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C651FA8111769D997B37D732D472976 /* NotificationBannerAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NotificationBannerAlert/NotificationBannerAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotificationBannerAlert/NotificationBannerAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotificationBannerAlert/NotificationBannerAlert.modulemap";
+				PRODUCT_MODULE_NAME = NotificationBannerAlert;
+				PRODUCT_NAME = NotificationBannerAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F10E35CF264A0EFCB1AC5E5595BC3705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C651FA8111769D997B37D732D472976 /* NotificationBannerAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NotificationBannerAlert/NotificationBannerAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotificationBannerAlert/NotificationBannerAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotificationBannerAlert/NotificationBannerAlert.modulemap";
+				PRODUCT_MODULE_NAME = NotificationBannerAlert;
+				PRODUCT_NAME = NotificationBannerAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCBAC9451457302E8D1B98F90EF1A1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2027809DF5596D086ACD01373A433221 /* Pods-NotificationBannerAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotificationBannerAlert_Example/Pods-NotificationBannerAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotificationBannerAlert_Example/Pods-NotificationBannerAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E61D135C8F1BC0B5C8F808617EEB17A /* Build configuration list for PBXNativeTarget "NotificationBannerAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10E35CF264A0EFCB1AC5E5595BC3705 /* Debug */,
+				D127D0AE405F9BFA79BA4241C2F7C21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780C1DC07F0874714F124184524682B8 /* Build configuration list for PBXNativeTarget "Pods-NotificationBannerAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBAC9451457302E8D1B98F90EF1A1B3 /* Debug */,
+				37673C2B686125C951814CF258E50097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9CA5EFF38017F6242FF3037E9F37E4 /* Build configuration list for PBXNativeTarget "Pods-NotificationBannerAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C083899E1236A61B403875CD6CBCD4 /* Debug */,
+				0113B73031E7662200C5B6C09BD1BB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

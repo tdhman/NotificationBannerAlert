@@ -1,0 +1,6 @@
+framework module Pods_NotificationBannerAlert_Example {
+  umbrella header "Pods-NotificationBannerAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
