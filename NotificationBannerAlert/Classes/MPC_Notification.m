@@ -35,8 +35,8 @@
 #pragma mark - Custom Init
 
 -(instancetype) initDefaultAlertWithTitle:(NSString *)alertTitle
-                      message:(NSString *)alertMessage
-                  displayTime:(CGFloat) displayTime {
+                                  message:(NSString *)alertMessage
+                              displayTime:(CGFloat) displayTime {
     
     UIColor *color = [UIColor colorWithRed:0.20 green:0.80 blue:1.00 alpha:1];
     UIImage *image = [UIImage imageNamed:@"info" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
@@ -62,8 +62,8 @@
 }
 
 -(instancetype) initDangerAlertWithTitle:(NSString *)alertTitle
-                                  message:(NSString *)alertMessage
-                              displayTime:(CGFloat) displayTime {
+                                 message:(NSString *)alertMessage
+                             displayTime:(CGFloat) displayTime {
     
     UIColor *color = [UIColor colorWithRed:0.733 green:0.192 blue:0.357 alpha:1];
     UIImage *image = [UIImage imageNamed:@"danger" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
@@ -75,10 +75,10 @@
                    alertColor:(UIColor *)color
                    alertImage:(UIImage * _Nullable)alertImage //@1x image should be 36px X 36px.
                   displayTime:(CGFloat) displayTime {
-
+    
     //1. Make sure another view with tag 595847 is not in the heirarchy
-//    UIView *view = [[[[UIApplication sharedApplication]delegate]window] viewWithTag:595847];
-//    if (view) {return nil;}
+    //    UIView *view = [[[[UIApplication sharedApplication]delegate]window] viewWithTag:595847];
+    //    if (view) {return nil;}
     
     //2. Call to super init
     if (self = [super initWithFrame:CGRectZero]) {
@@ -97,13 +97,16 @@
         [self addSubview:[self _message:alertMessage]];
         [self addGestureRecognizer:[self tap]];
         [self addGestureRecognizer:[self pan]];
-//        [self setTag:595847];
+        //        [self setTag:595847];
         
         //6. Add the subview to the application window
-        [[[[UIApplication sharedApplication] delegate] window] addSubview:self];
+        UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+        if (window) {
+            [window addSubview:self];
+        }
         
     }
-
+    
     return self;
 }
 
@@ -120,13 +123,15 @@
 - (CGRect)_frameAfterReset {
     
     //Adjust for notched devices
-    UIWindow *window = [[[UIApplication sharedApplication]delegate]window];
+    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+    if (!window) return  CGRectMake(0, -(self.alertHeight), self.viewWidth, self.alertHeight);
+    
     NSOperatingSystemVersion V11 = (NSOperatingSystemVersion){.majorVersion = 11};
     if ( [[NSProcessInfo processInfo] isOperatingSystemAtLeastVersion:V11] &&
         [window respondsToSelector:@selector(safeAreaInsets)]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wpartial-availability"
-        UIEdgeInsets i = [[[UIApplication sharedApplication]delegate]window].safeAreaInsets;
+        UIEdgeInsets i = window.safeAreaInsets;
 #pragma clang diagnostic pop
         
         //Only need to adjust if in portrait on iPhoneX (landscape is 0 offest)
@@ -258,7 +263,7 @@
     
     //2. Slide down the alert
     [UIView animateWithDuration:0.5 animations:^{
-       
+        
         CGRect shiftFrame = self.frame;
         shiftFrame.origin.y +=self.alertHeight;
         self.frame = shiftFrame;
@@ -310,14 +315,14 @@
     [self removeFromSuperview];
 }
 
-- (void)_statusBarToBottom
-{
-    [[[[UIApplication sharedApplication] delegate] window] setWindowLevel:UIWindowLevelStatusBar+1];
+- (void)_statusBarToBottom {
+    //    [[[[UIApplication sharedApplication] delegate] window] setWindowLevel:UIWindowLevelStatusBar+1];
+    [[[UIApplication sharedApplication] keyWindow] setWindowLevel:UIWindowLevelStatusBar+1];
 }
 
-- (void)_statusBarToTop
-{
-    [[[[UIApplication sharedApplication] delegate] window] setWindowLevel:UIWindowLevelNormal];
+- (void)_statusBarToTop {
+    //    [[[[UIApplication sharedApplication] delegate] window] setWindowLevel:UIWindowLevelNormal];
+    [[[UIApplication sharedApplication] keyWindow] setWindowLevel:UIWindowLevelNormal];
 }
 
 @end
