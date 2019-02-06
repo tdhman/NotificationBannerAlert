@@ -91,6 +91,8 @@
         
         //5. Build view
         self.backgroundColor = color ? color : [UIColor colorWithRed:0.733 green:0.192 blue:0.357 alpha:1];
+        self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+        self.autoresizesSubviews = YES;
         
         if (alertImage) { [self addSubview:[self imageViewWithImage:alertImage]];}
         if (alertTitle) {[self addSubview:[self _title:alertTitle]]; }
@@ -108,6 +110,10 @@
     }
     
     return self;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
 }
 
 #pragma mark - Initial Setup
